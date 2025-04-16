@@ -9,12 +9,15 @@ body {
     height: 100vh;
     background-color: #fff;
 }
-button {
-    padding: 60px 100px;
-    font-size: 35px;
-    color: #000000;
-    background-color: #eeeeee;
-    cursor: pointer;
-    border: 4px rgb(0, 0, 0) solid;
-    border-radius: 15px;
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.play-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
